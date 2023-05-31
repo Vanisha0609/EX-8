@@ -28,20 +28,21 @@ while True:
  ```
  SERVER:
  ```
-import socket
-s=socket.socket()
-s.bind(('localhost',8000))
-s.listen(5)
-c,addr=s.accept()
-while True:
- ClientMessage=c.recv(1024).decode()
- c.send(ClientMessage.encode())
-```
+ import socket
+ s=socket.socket()
+ s.bind(('localhost',8000))
+ s.listen(5)
+ c,addr=s.accept()
+ while True:
+   ClientMessage=c.recv(1024).decode()
+   c.send(ClientMessage.encode())
 
 ## OUTPUT :
 CLIENT:
+
 ![5cl](https://github.com/Vanisha0609/EX-8/assets/119104009/055a2dbf-fb90-4fe2-beaa-256e255b88bb)
 SERVER:
+
 ![5s](https://github.com/Vanisha0609/EX-8/assets/119104009/66674ebd-c1ae-4d36-88ca-64b4f2347278)
 
 ## RESULT :
