@@ -41,6 +41,7 @@ while True:
 CLIENT:
 
 ![5cl](https://github.com/Vanisha0609/EX-8/assets/119104009/055a2dbf-fb90-4fe2-beaa-256e255b88bb)
+
 SERVER:
 
 ![5s](https://github.com/Vanisha0609/EX-8/assets/119104009/66674ebd-c1ae-4d36-88ca-64b4f2347278)
