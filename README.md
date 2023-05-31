@@ -36,7 +36,7 @@ while True:
  while True:
    ClientMessage=c.recv(1024).decode()
    c.send(ClientMessage.encode())
-
+  ```
 ## OUTPUT :
 CLIENT:
 
